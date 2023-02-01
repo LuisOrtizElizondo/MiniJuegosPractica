@@ -122,7 +122,7 @@ namespace TATETI
             Random rnd = new Random();
             int indexPalabra = rnd.Next(min, max );
 
-            MessageBox.Show("Palabra Generada: " + listaPalabras[indexPalabra]);
+           // MessageBox.Show("Palabra Generada: " + listaPalabras[indexPalabra]);
             return listaPalabras[indexPalabra];
         }
 
